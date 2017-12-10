@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+article {
+	box-shadow: 10px 15px 20px black,
+	            0px 0px 40px black inset,
+				20px 20px 15px 5px rgba(255, 255, 255, 0.7) inset;
+}
+
+
+

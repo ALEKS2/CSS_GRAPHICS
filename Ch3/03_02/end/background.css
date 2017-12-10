@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+body > article { 
+   background: url(bust.png) no-repeat right 90%/50%,
+               url(column.png) no-repeat center center/cover,     
+               rgb(231, 231, 231);
+}

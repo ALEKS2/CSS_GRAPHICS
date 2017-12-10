@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+
+
+html {
+   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+   height: 100%;
+   font-size: 18px;
+   color: rgb(101, 101, 101);
+}
+
+body {
+   padding: 20px 0px 0px 20px;
+   position: relative;
+}
+
+h1 {
+   font-weight: normal;
+   font-size: 2.4em;
+   margin-top: 10px;
+   margin-left: 20px;
+   padding-bottom: 20px;
+}
+
+div#blendlist {
+   line-height: 1.5em;
+   margin-top: 100px;
+}
+
+label {
+   display: inline-block;
+   width: 200px;
+   margin-left: 10px;
+}
+
+
+div#outcome {
+   position: absolute;
+   top: 40px;
+   left: 180px;
+   font-size: 22px;
+}
+
+
+div#outcomebox {
+   width: 360px;
+   height: 540px;
+   border: 1px solid rgb(191, 191, 191);
+   background: url(blend3.png) no-repeat center 95%, url(blend2.png) no-repeat top left/cover, url(blend1.png) top left/cover, rgba(162,14,106,1.00);
+   position: absolute;
+   top: 50px;
+   left: 121px;
+}
+
+h2 {
+   position: absolute;
+   top: -10px;
+   left: 15px;
+   font-size: 1.2em;
+   font-weight: normal;
+}
+
+div#preview1 {
+   height: 120px;
+   width: 90px;
+   background: url(blend3.png) no-repeat center  95%/60px auto;
+   outline: 1px solid gray;
+   position: absolute;
+   top: 110px; 
+   left: 25px;
+}
+
+div#preview2 {
+   height: 120px;
+   width: 90px;
+   background: url(blend2.png) no-repeat top left/cover;
+   outline: 1px solid gray;
+   position: absolute;
+   top: 230px; 
+   left: 25px;
+}
+
+div#preview3 {
+   height: 120px;
+   width: 90px;
+   background: url(blend1.png) top left/cover;
+   outline: 1px solid gray;
+   position: absolute;
+   top: 350px; 
+   left: 25px;
+}
+
+div#preview4 {
+   height: 120px;
+   width: 90px;
+   background: rgba(162,14,106,1.00);
+   outline: 1px solid gray;
+   position: absolute;
+   top: 470px; 
+   left: 25px;
+}
+
+div#outcomecode {
+   position: absolute;
+   top: 600px;
+   left: 30px;
+   width: 600px;
+}
+
+table {
+   width: 100%;
+}
+
+td {
+   width: 300px;
+   font-size: 1.2em;
+   vertical-align: top;
+   border: 1px solid black;
+}
+   

@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 70px auto;
+	width: 90%
+}
+
+body > article {
+   width: 600px;
+   font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";    
+}
+
+body > article > section {
+   margin: 20px 30px;
+}
+
+body > article > p {
+   margin: 20px 40px;
+   font-size: 1.4em;
+   line-height: 1.4;
+   color: rgba(0, 0, 0, 0.8);    
+}
+
+body > article > section > h1 {
+   font-size: 4em;
+   font-weight: bold;
+   margin: 30px 20px 0px;
+   text-align: center; 
+   color: rgba(0, 0, 0, 0.3);   
+}
+
+body > article > section > h2 {
+   font-weight: bold;
+   margin: 0px 20px;
+   text-align: center;   
+   padding-bottom: 8px;
+   color: rgba(0, 0, 0, 0.6);
+   font-size: 1.5em;   
+}
+
+body > article > p:last-of-type {
+   text-align: center;
+   font-size: 1.7em;
+}
+
+cite {
+   font-size: 0.8em;
+}

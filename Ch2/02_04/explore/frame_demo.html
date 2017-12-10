@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+   <meta charset="utf-8" />
+   <title>Border Images</title>
+   <link href="frame_base.css" rel="stylesheet" />
+   <link href="frame_layout.css" rel="stylesheet" />
+   <script src="frame_demo.js" async></script>
+</head>
+
+<body>
+   <h1>Border Images</h1>
+   <div id="borderOptions">
+      <label for="showGrid">Show Grid</label><input type="checkbox" checked id="showgrid" style="width: 20px"/><br />
+      <label for="bImg">image</label> <input id="bImg" type="text" value="frame.png" /> <br /> 
+      <label for="bSlice">image-slice</label> 0px <input id="bSlice" type="range" min="0" max="200" step="1" value="100" />200px <br />
+      <label for="bFill">image-fill</label><input type="checkbox" id="bFill" style="width: 20px" /><br />
+      <label for="hRepeat">horiz repeat</label>
+      <select id="hRepeat">
+         <option value="" selected></option>
+         <option value="stretch">stretch</option>
+         <option value="repeat">repeat</option>
+         <option value="round">round</option>
+         <option value="space">space</option>
+      </select><br />
+      <label for="vRepeat">vert repeat</label>
+      <select id="vRepeat">
+         <option value="" selected></option>
+         <option value="stretch">stretch</option>
+         <option value="repeat">repeat</option>
+         <option value="round">round</option>
+         <option value="space">space</option>
+      </select>      
+   </div>
+   
+     
+   <div id="outcome">
+     <div id="framepreview">
+         <img src="frame.png" id="frameImg" />
+         <img src="redot.png" id="topline" />
+         <img src="redot.png" id="rightline" />
+         <img src="redot.png" id="bottomline" />
+         <img src="redot.png" id="leftline" />
+      </div>
+      <div id="caption">Border Image</div>
+      
+      <div id="outcomebox">
+         <img src="redot.png" id="topline2" />
+         <img src="redot.png" id="rightline2" />
+         <img src="redot.png" id="bottomline2" />
+         <img src="redot.png" id="leftline2" />        
+      </div>      
+      <div id="outcomecode" style="line-height: 1.5em">
+         border: 30px transparent solid;<br />
+         border-image: url(<span id="imgFile">frame2.png</span>)  <span id="sliceVal">20</span> <span id="fillVal"></span> <span id="hrepeatVal"></span> <span id="vrepeatVal"></span>; 
+      </div>
+   </div>   
+
+</body>
+</html>

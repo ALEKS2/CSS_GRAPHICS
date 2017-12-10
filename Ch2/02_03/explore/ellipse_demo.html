@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+   <meta charset="utf-8" />
+   <title>Elliptical Radius</title>
+   <link href="ellipse_base.css" rel="stylesheet" />
+   <link href="ellipse_layout.css" rel="stylesheet" />
+   <script src="ellipse_demo.js" async></script>
+</head>
+
+<body>
+   <h1>Elliptical Radius</h1>
+   <div id="radiusOptions">
+      <label for="hrad">horizontal radius</label> 0px <input id="hrad" type="range" min="0" max="150" step="10" value="40" /> 150px<br />
+      <label for="vrad">vertical radius</label> 0px <input id="vrad" type="range" min="0" max="150" step="10" value="20" /> 150px      
+   </div>
+   
+     
+   <div id="outcome">
+      <div id="outcomebox">
+         <div id="tlbox" class="rbox"></div>
+         <div id="trbox" class="rbox"></div>
+         <div id="brbox" class="rbox"></div>
+         <div id="blbox" class="rbox"></div>
+      </div>      
+      <div id="outcomecode">
+         border-radius: <span id="hradval">40</span>px/<span id="vradval">20</span>px;
+      </div>
+   </div>   
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+   <meta charset="utf-8" />
+   <title>The Background Style</title>
+   <link href="background2_base.css" rel="stylesheet" />
+   <link href="background2_layout.css" rel="stylesheet" />
+   <script src="background2_demo.js" async></script>
+</head>
+
+<body>
+    
+   <h1>The Background Style</h1>
+   <div id="borderOptions">
+     
+      <label for="showBack">Show Background</label><input type="checkbox" id="showBack" /><br />     
+
+      <label for="useColor">background-color</label><input id="useColor" type="checkbox" /><input id="bgColor" type="color" value="#FF8000" /><label class="lAlpha">Alpha</label> 0 <input class="gAlpha" id="colorAlpha" type="range" min="0" max="1" step="0.01" value="1" /> 1<br />  
+      
+      <label>background-position</label><input type="radio" name="posType" id="posKey" checked />   
+      <select id="hKey">
+         <option value="" selected></option>
+         <option value="left">left</option>            
+         <option value="center">center</option>  
+         <option value="right">right</option>                         
+      </select> 
+      <select id="vKey">
+         <option value="" selected></option>
+         <option value="top">top</option>            
+         <option value="center">center</option>  
+         <option value="bottom">bottom</option>                         
+      </select><br />  
+      <label></label><input type="radio" name="posType" id="posP" />  
+      0% <input id="hPos" type="range" min="0" max="100" step="1" value="0" /> 100%<br /> 
+      <label></label><span style="display: inline-block; width: 25px"></span>0% <input id="vPos" type="range" min="0" max="100" step="1" value="0" /> 100% <br />      
+      
+      <label>background-size</label><input type="radio" name="sizeType" id="sizeKey" />   
+      <select id="sizeKeyVal">
+         <option value="" selected></option>
+         <option value="cover">cover</option>            
+         <option value="contain">contain</option>                          
+      </select><br />
+      <label></label><input type="radio" name="sizeType" id="sizeP" checked />  
+      0px <input id="hSize" type="range" min="0" max="250" step="25" value="0" /> 250px<br /> 
+      <label></label><span style="display: inline-block; width: 25px"></span>0px <input id="vSize" type="range" min="0" max="250" step="25" value="0" /> 250px <br />                                                                   
+
+      <label for="useRepeat">background-repeat</label>
+      <select class="repeatBox" id="repeat">
+         <option value="" selected></option>
+         <option value="repeat">repeat</option>
+         <option value="repeat-x">repeat-x</option>
+         <option value="repeat-y">repeat-y</option>         
+         <option value="round">round</option>
+         <option value="space">space</option>
+         <option value="no-repeat">no-repeat</option>                                             
+      </select><br />
+          
+      <label for="useAttachment">background-attachment</label>
+      <select class="attachBox" id="attach">
+         <option value="" selected></option>
+         <option value="scroll">scroll</option>
+         <option value="fixed">fixed</option>
+         <option value="local">local</option>                                             
+      </select><br />   
+          
+      <label for="useOrigin">background-origin</label>
+      <select class="originBox" id="origin">
+         <option value="" selected></option>
+         <option value="content-box">content-box</option>
+         <option value="padding-box">padding-box</option>
+         <option value="border-box">border-box</option>                                             
+      </select><br />                        
+           
+      <label for="useClip">background-clip</label>
+      <select class="clipBox" id="clip">
+         <option value="" selected></option>
+         <option value="content-box">content-box</option>
+         <option value="padding-box">padding-box</option>
+         <option value="border-box">border-box</option>                                             
+      </select>
+            
+   </div>
+   
+     
+   <div id="outcome">
+      <div id="outcomebox"><div id="innerbox"><span id="bb">border-box</span><span id="pb">padding-box</span><span id="cb">content-box</span></div></div>      
+      <div id="outcomecode"></div>
+   </div>   
+
+</body>
+</html>

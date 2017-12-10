@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+article {
+	background-image: url(tseliot.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-origin: content-box;
+	background-size: 400px;
+}
+
+
+
+

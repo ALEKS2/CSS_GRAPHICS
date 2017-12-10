@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+article {
+	filter: sepia(1);
+}
+
+div#head {
+	filter: opacity(0.8);
+}
+
+h1, h2 {
+	filter: blur(1px);
+}
+
+img {
+	filter: drop-shadow(-10px 0px 8px black);
+}
+
+p {
+	filter: drop-shadow(1px 1px 1px black);
+}
+
+
+
+
+

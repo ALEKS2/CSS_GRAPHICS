@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+
+
+html {
+   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+   height: 100%;
+   font-size: 18px;
+   color: rgb(101, 101, 101);
+}
+
+body {
+   padding: 20px 0px 0px 20px;
+   position: relative;
+}
+
+h1 {
+   font-weight: normal;
+   font-size: 2.4em;
+   margin-top: 5px;
+   margin-left: 120px;
+   padding-bottom: 30px;
+}
+
+
+
+label {
+   display: inline-block;
+   width: 140px;
+   margin-left: 10px;
+}
+
+div#boxOptions {
+   width: 400px;
+   line-height: 2em;
+}
+
+div#baseOptions {
+   border-bottom: 1px solid rgb(191, 191, 191);
+}
+div.shadowOption {
+   margin: 20px 0px;
+   padding-top: 10px;
+   border-bottom: 1px solid rgb(191, 191, 191);
+}
+
+input.removeShadow {
+   width: 25px;
+   height: 25px;
+   margin: 10px;
+   font-size: 1em;
+}
+
+label.lAlpha {
+   width: 50px;
+}
+
+input.sAlpha, input#bgAlpha {
+   width: 100px;
+}
+
+div#outcome {
+   position: absolute;
+   top: 80px;
+   left: 330px;
+   font-size: 22px;
+}
+
+
+div#outcomebox {
+   width: 250px;
+   height: 250px;
+   line-height: 3.3em;
+   position: absolute;
+   top: 20px;
+   left: 121px;;
+   color: rgb(255, 128, 0);
+   background-color: rgb(255, 255, 155);
+   box-shadow: 3px 3px 6px rgb(0, 0, 0);
+}
+
+
+
+div#outcomecode {
+   position: absolute;
+   top: 270px;
+   left: 130px;
+   width: 1050px;
+}
+
+
+span#cRule {
+   display: block;
+   width: 180px;
+   position: absolute;
+   top: 28px;
+   left: 0px;
+}
+
+
+span#sRule {
+   display: block;
+   width: 180px;
+   position: absolute;
+   top: 56px;
+   left: 0px;
+}
+
+
+span#cVal {
+   display: block;
+   width: 350px;
+   position: absolute;
+   top: 28px;
+   left: 186px;
+}
+
+span#shadowVal {
+   display: block;
+   width: 650px;
+   position: absolute;
+   top: 56px;
+   left: 186px;
+   line-height: 1.4;
+}
+
+   

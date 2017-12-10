@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+   <meta charset="utf-8" />
+   <title>Box Shadow Styles</title>
+   <link href="box_base.css" rel="stylesheet" />
+   <link href="box_layout.css" rel="stylesheet" />
+   <script src="box_demo.js" async></script>
+</head>
+
+<body>
+   <h1>Box Shadow Styles</h1>
+   <div id="boxOptions">
+      <div id="baseOptions"> 
+         <label for="bgColor">BG Color</label> <input id="bgColor" type="color" value="#FFFF9B" />
+         <label class="lAlpha">Alpha</label> 0<input id="bgAlpha" type="range" min="0" max="1" step="0.01" value="1" />1
+      </div>
+      
+      <div class="shadowOption">
+         <label>Shadow Color</label> <input class="sColor" type="color" value="#000000" />
+         <label class="lAlpha">Alpha</label> 0<input class="sAlpha" type="range" min="0" max="1" step="0.01" value="1" />1<br />
+         <label>offSetX</label> -60px<input class="offsetX" type="range" min="-60" max="60" step="1" value="10" />60px<br />
+         <label>offSetY</label> -60px<input class="offsetY" type="range" min="-60" max="60" step="1" value="10" />60px<br />
+         <label>blur</label> &nbsp;&nbsp;0px<input class="blur" type="range" min="0" max="60" step="1" value="10" />60px<br />
+         <label>spread</label> -60px<input class="spread" type="range" min="-60" max="60" step="1" value="0" />60px<br />         
+         <label for="inset">inset</label> <input type="checkbox" id="inset" /><br />
+         <input type="button" class="removeShadow" value="-" />
+      </div>
+      <div id="addBox">
+         <input type="button" id="addShadow" value="+" />      
+      </div>
+   </div>
+   
+     
+   <div id="outcome">
+      <div id="outcomebox"></div>      
+      <div id="outcomecode">
+         <span id="cRule">background-color:</span> <span id="cVal">rgb(255, 255, 155);</span>
+         <span id="sRule">box-shadow:</span> <span id="shadowVal">rgb(0, 0, 0) 3px 3px 6px;</span>
+      </div>
+   </div>   
+
+</body>
+</html>

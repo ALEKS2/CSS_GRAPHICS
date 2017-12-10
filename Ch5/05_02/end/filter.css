@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+article {
+	filter: grayscale(0.8) contrast(2)
+			drop-shadow(0px 0px 4px lightgreen)
+			drop-shadow(0px 0px 8px lightgreen);
+}
+
+p, h1, h2 {
+	filter: opacity(0.7)
+			drop-shadow(0px 0px 1px black)
+			drop-shadow(0px 0px 2px black);
+}
+
+img {
+	filter: contrast(0.7) blur(1px) opacity(0.4);
+}
+

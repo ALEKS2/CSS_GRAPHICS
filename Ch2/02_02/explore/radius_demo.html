@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+   <meta charset="utf-8" />
+   <title>Border Radius</title>
+   <link href="radius_base.css" rel="stylesheet" />
+   <link href="radius_layout.css" rel="stylesheet" />
+   <script src="radius_demo.js" async></script>
+</head>
+
+<body>
+   <h1>Border Radius</h1>
+   <div id="radiusOptions">
+      <label for="rad">corner radii</label> 0px <input id="rad" type="range" min="0" max="150" step="10" value="0" /> 150px
+   </div>
+   
+     
+   <div id="outcome">
+      <div id="outcomebox">
+         <div id="tlbox" class="rbox"></div>
+         <div id="trbox" class="rbox"></div>
+         <div id="brbox" class="rbox"></div>
+         <div id="blbox" class="rbox"></div>
+      </div>      
+      <div id="outcomecode">
+         border-radius: <span id="radval">0</span>px
+      </div>
+   </div>   
+
+</body>
+</html>

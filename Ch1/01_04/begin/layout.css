@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+html {
+}
+
+body {
+   background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 70px auto;
+	width: 75%;
+}
+
+body > article {
+   width: 500px;
+   background-color: white;
+   padding: 30px;
+   outline: 1px dotted rgb(131, 131, 131);
+}
+
+body > article > h1 {
+   font-size: 1.7em;
+   line-height: 1.2em;
+   margin-bottom: 0px;
+}
+
+body > article > h2 {
+   font-size: 1.2em;
+   line-height: 1.2em;
+   margin-top: 0px;
+}

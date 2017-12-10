@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+   <meta charset="utf-8" />
+   <title>Two Elliptical Radii</title>
+   <link href="ellipse2_base.css" rel="stylesheet" />
+   <link href="ellipse2_layout.css" rel="stylesheet" />
+   <script src="ellipse2_demo.js" async></script>
+</head>
+
+<body>
+   <h1>Elliptical Radii</h1>
+   <div id="radiusOptions">
+      <h2>Top-Left/Bottom-Right</h2>
+      <label for="tlhrad">horizontal radius</label> 0px <input id="tlhrad" type="range" min="0" max="150" step="10" value="60" /> 150px<br />
+      <label for="tlvrad">vertical radius</label> 0px <input id="tlvrad" type="range" min="0" max="150" step="10" value="110" /> 150px <br />   
+      <h2>Top-Right/Bottom-Left</h2>
+      <label for="trhrad">horizontal radius</label> 0px <input id="trhrad" type="range" min="0" max="150" step="10" value="60" /> 150px<br />
+      <label for="trvrad">vertical radius</label> 0px <input id="trvrad" type="range" min="0" max="150" step="10" value="110" /> 150px                      
+   </div>
+   
+     
+   <div id="outcome">
+      <div id="outcomebox">
+         <div id="tlbox" class="rbox"></div>
+         <div id="trbox" class="rbox"></div>
+         <div id="brbox" class="rbox"></div>
+         <div id="blbox" class="rbox"></div>
+      </div>      
+      <div id="outcomecode">
+         border-radius: <span id="tlhradval">60</span>px <span id="trhradval">60</span>px  /
+         <span id="tlvradval">110</span>px <span id="trvradval">110</span>px;
+      </div>
+   </div>   
+
+</body>
+</html>

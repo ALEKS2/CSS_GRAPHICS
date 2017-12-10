@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+
+html {
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 70px auto;
+	width: 75%;
+	height: 700px;
+   border: 1px dashed gray;
+}
+
+body > div#main {
+   width: 90%;
+   height: 90%;
+   border: 1px dashed gray;
+}

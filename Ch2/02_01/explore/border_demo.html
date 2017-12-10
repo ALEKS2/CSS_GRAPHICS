@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+   <meta charset="utf-8" />
+   <title>Border Styles</title>
+   <link href="border_base.css" rel="stylesheet" />
+   <link href="border_layout.css" rel="stylesheet" />
+   <script src="border_demo.js" async></script>
+</head>
+
+<body>
+   <h1>Border Style Options</h1>
+   <div id="borderOptions">
+      <label for="borderW">width</label> 1px <input id="borderW" type="range" min="1" max="30" step="1" value="10" /> 30px<br />
+      <label for="borderC">color</label> <input id="borderC" type="color" value="#808080" /><br />
+      <label for="borderS">style</label> 
+      <select id="borderS">
+         <option value="solid" selected>solid</option>
+         <option value="dashed">dashed</option>
+         <option value="dotted">dotted</option>
+         <option value="double">double</option>
+         <option value="groove">groove</option>
+         <option value="ridge">ridge</option>
+         <option value="inset">inset</option>         
+         <option value="outset">outset</option>
+         <option value="hidden">hidden</option> 
+         <option value="none">none</option>                                                                        
+      </select>
+   </div>
+   
+     
+   <div id="outcome">
+      <div id="outcomebox"></div>      
+      <div id="outcomecode">
+         border: <span id="bWidth">10px</span> <span id="bColor">rgb(128, 128, 128)</span> <span id="bStyle">solid</span>;
+      </div>
+   </div>   
+
+</body>
+</html>

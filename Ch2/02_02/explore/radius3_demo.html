@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+   <meta charset="utf-8" />
+   <title>Three Border Radii</title>
+   <link href="radius3_base.css" rel="stylesheet" />
+   <link href="radius3_layout.css" rel="stylesheet" />
+   <script src="radius3_demo.js" async></script>
+</head>
+
+<body>
+   <h1>Border Radii</h1>
+   <div id="radiusOptions">
+      <label for="tl">top-left</label> 0px <input id="tl" type="range" min="0" max="150" step="10" value="30" /> 150px<br />
+      <label for="tr">top-right/bottom-left</label> 0px <input id="tr" type="range" min="0" max="150" step="10" value="30" /> 150px<br />
+      <label for="br">bottom-right</label> 0px <input id="br" type="range" min="0" max="150" step="10" value="30" /> 150px
+   </div>
+   
+     
+   <div id="outcome">
+      <div id="outcomebox">
+         <div id="tlbox" class="rbox"></div>
+         <div id="trbox" class="rbox"></div>
+         <div id="brbox" class="rbox"></div>
+         <div id="blbox" class="rbox"></div>
+      </div>      
+      <div id="outcomecode">
+         border-radius: <span id="tlr">50</span>px
+                        <span id="trr">150</span>px
+                        <span id="brr">30</span>px;
+      </div>
+   </div>   
+
+</body>
+</html>

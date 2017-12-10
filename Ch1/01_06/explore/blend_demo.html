@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+   <meta charset="utf-8" />
+   <title>Color Blend Modes</title>
+   <link href="blend_base.css" rel="stylesheet" />
+   <link href="blend_layout.css" rel="stylesheet" />
+   <script src="blend_demo.js" async></script>
+</head>
+
+<body>
+   <h1>Background Blend Modes</h1>
+   <div id="blendlist">
+      <input type="radio" name="blends" value="normal" id="normalBlend" checked /><label for="normalBlend">normal</label><br />
+      <input type="radio" name="blends" value="multiply" id="multiplyBlend" /><label for="multiplyBlend">multiply</label><br />
+      <input type="radio" name="blends" value="screen" id="screenBlend" /><label for="screenBlend">screen</label><br />   
+      <input type="radio" name="blends" value="overlay" id="overlayBlend" /><label for="overlayBlend">overlay</label><br />  
+      <input type="radio" name="blends" value="darken" id="darkenBlend" /><label for="darkenBlend">darken</label><br /> 
+      <input type="radio" name="blends" value="lighten" id="lightenBlend" /><label for="lightenBlend">lighten</label><br />  
+      <input type="radio" name="blends" value="color-dodge" id="dodgeBlend" /><label for="dodgeBlend">color-dodge</label><br />  
+      <input type="radio" name="blends" value="color-burn" id="burnBlend" /><label for="burnBlend">color-burn</label><br /> 
+      <input type="radio" name="blends" value="hard-light" id="hardBlend" /><label for="hardBlend">hard-light</label><br /> 
+      <input type="radio" name="blends" value="soft-light" id="softBlend" /><label for="softBlend">soft-light</label><br /> 
+      <input type="radio" name="blends" value="difference" id="diffBlend" /><label for="diffBlend">difference</label><br /> 
+      <input type="radio" name="blends" value="exclusion" id="excBlend" /><label for="excBlend">exclusion</label><br />   
+      <input type="radio" name="blends" value="hue" id="hueBlend" /><label for="hueBlend">hue</label><br />  
+      <input type="radio" name="blends" value="saturation" id="satBlend" /><label for="satBlend">saturation</label><br />  
+      <input type="radio" name="blends" value="color" id="colorBlend" /><label for="colorBlend">color</label><br />  
+      <input type="radio" name="blends" value="luminosity" id="lumBlend" /><label for="lumBlend">luminosity</label>
+   </div>
+   
+     
+   <div id="outcome">
+      <div id="preview1"></div>
+      <div id="preview2"></div>
+      <div id="preview3"></div>
+      <div id="preview4"></div>
+      <div id="outcomebox"></div>      
+      <div id="outcomecode">
+         background-blend-mode: <span id="mode">normal</span>;
+      </div>
+   </div>   
+
+</body>
+</html>

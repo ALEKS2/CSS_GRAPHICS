@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+
+
+html {
+   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+   height: 100%;
+   font-size: 18px;
+   color: rgb(101, 101, 101);
+}
+
+body {
+   padding: 20px;
+   position: relative;
+}
+
+h1 {
+   font-weight: normal;
+   font-size: 2.4em;
+   margin-top: 5px;
+   margin-left: 350px;
+   padding-bottom: 10px;
+}
+
+h2 {
+   font-weight: bold;
+}
+div#radiusOptions {
+   line-height: 2em;
+   margin-top: 0px;
+}
+
+label {
+   display: inline-block;
+   width: 140px;
+   margin-left: 10px;
+}
+
+input {
+   cursor: pointer;
+}
+
+
+div#outcome {
+   position: absolute;
+   top: 100px;
+   left: 310px;
+   font-size: 22px;
+}
+
+
+div#outcomebox {
+   background: hsla(30,75%,51%,0.4);
+   width: 300px;
+   height: 300px;
+   border: 2px solid rgb(21, 21, 21);
+   position: absolute;
+   top: 20px;
+   left: 160px;
+   border-radius: 60px 60px 90px 90px/110px 110px 30px 30px;
+}
+
+div.rbox {
+   background: transparent;
+   position: absolute;
+   border: 1px dashed rgb(51, 51, 51);
+}
+
+div#tlbox {
+   top: 0%; left: 0%; width: 120px; height: 220px; border-radius: 60px/110px;
+}
+
+div#trbox {
+   top: 0%; right: 0%; width: 120px; height: 220px; border-radius: 60px/110px;
+}
+
+div#brbox {
+   bottom: 0%; right: 0%; width: 180px; height: 60px; border-radius: 90px/30px;
+}
+
+div#blbox {
+   bottom: 0%; left: 0%; width: 180px; height: 60px; border-radius: 90px/30px;
+}
+
+div#outcomecode {
+   position: absolute;
+   top: 340px;
+   left: 150px;
+   width: 700px;
+}
+
+
+   

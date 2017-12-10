@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+
+
+html {
+   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+   height: 100%;
+   font-size: 18px;
+   color: rgb(101, 101, 101);
+}
+
+body {
+   padding: 20px 0px 0px 20px;
+   position: relative;
+}
+
+h1 {
+   font-weight: normal;
+   font-size: 2.4em;
+   margin-top: 5px;
+   margin-left: 120px;
+   padding-bottom: 30px;
+}
+
+div#borderOptions {
+   line-height: 2em;
+}
+
+label {
+   display: inline-block;
+   width: 140px;
+   margin-left: 10px;
+}
+
+select#svg {
+   font-size: 0.9em;
+   color: rgb(101, 101, 101);
+   width: 120px;
+}
+input.eraseF {
+   display: inline-block;
+   margin-right: 10px;
+}
+
+div#outcome {
+   position: absolute;
+   top: 80px;
+   left: 300px;
+   font-size: 22px;
+}
+
+
+div#outcomebox {
+   width: 500px;
+   height: 329px;
+   position: absolute;
+   top: 20px;
+   left: 211px;
+}
+
+div#outcomebox img {
+   width: 100%;
+   height: auto;
+}
+
+
+
+div#outcomecode {
+   position: absolute;
+   top: 390px;
+   left: 210px;
+   width: 600px;
+}
+
+textarea#outcomesvg {
+   border-width: 0px;
+   width: 480px;
+   height: 200px;
+   outline: 1px dotted rgb(151, 151, 151);
+   font-size: 0.6em;
+   color: rgb(101, 101, 101);
+   visibility: hidden;
+   padding: 10px;
+   background-color: rgb(231, 231, 231);
+}
+
+
+   

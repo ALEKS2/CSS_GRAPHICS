@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+html {
+	background-color: hsl(160, 90%, 60%);
+}
+
+body {
+	background-color: hsl(160, 60%, 60%);
+}
+
+div#main {
+	background-color: hsl(160, 30%, 60%);
+	background-image: url(paper.png);
+}

@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+article { 
+   background: url(landscape.png) no-repeat bottom/100%, 
+               linear-gradient(165deg, black,
+			                   rgb(0, 0, 200) 70%,
+							   rgb(211, 0, 55) 80%,
+							   orange 85%,
+							   yellow 87%);                               
+}

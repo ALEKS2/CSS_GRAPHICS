@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+   <meta charset="utf-8" />
+   <title>Text Shadow Styles</title>
+   <link href="text_base.css" rel="stylesheet" />
+   <link href="text_layout.css" rel="stylesheet" />
+   <script src="text_demo.js" async></script>
+</head>
+
+<body>
+   <h1>Text Shadow Styles</h1>
+   <div id="textOptions">
+      <div id="baseOptions">
+         <label for="tString">Text String</label> <input id="tString" type="text" placeholder="Enter a text string"  /><br />
+         <label for="tColor">Text Color</label> <input id="tColor" type="color" value="#FF8000" />
+         <label class="lAlpha">Alpha</label> 0<input id="tAlpha" type="range" min="0" max="1" step="0.01" value="1" />1<br /> 
+         <label for="bgColor">BG Color</label> <input id="bgColor" type="color" value="#FFFF9B" />
+         <label class="lAlpha">Alpha</label> 0<input id="bgAlpha" type="range" min="0" max="1" step="0.01" value="1" />1
+      </div>
+      
+      <div class="shadowOption">
+         <label>Shadow Color</label> <input class="sColor" type="color" value="#000000" />
+         <label class="lAlpha">Alpha</label> 0<input class="sAlpha" type="range" min="0" max="1" step="0.01" value="1" />1<br />
+         <label>offSetX</label> -30px<input class="offsetX" type="range" min="-30" max="30" step="1" value="3" />30px<br />
+         <label>offSetY</label> -30px<input class="offsetY" type="range" min="-30" max="30" step="1" value="3" />30px<br />
+         <label>blur</label> &nbsp;&nbsp;0px<input class="blur" type="range" min="0" max="30" step="1" value="6" />30px<br />
+         <input type="button" class="removeShadow" value="-" />
+      </div>
+      <div id="addBox">
+         <input type="button" id="addShadow" value="+" />      
+      </div>
+   </div>
+   
+     
+   <div id="outcome">
+      <div id="outcomebox">Text Shadow</div>      
+      <div id="outcomecode">
+         <span id="tRule">color:</span> <span id="tVal">rgb(255, 128, 0);</span>
+         <span id="cRule">background-color:</span> <span id="cVal">rgb(255, 255, 155);</span>
+         <span id="sRule">text-shadow:</span> <span id="shadowVal">rgb(0, 0, 0) 3px 3px 6px;</span>
+      </div>
+   </div>   
+
+</body>
+</html>
